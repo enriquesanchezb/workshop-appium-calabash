@@ -1,0 +1,42 @@
+user:
+  calabash:
+    android: "android.widget.TextView id:'nux_username'"
+    ios: "* marked:'Username / Email'"
+  appium:
+    android: "org.wordpress.android:id/nux_username"
+    ios: "Username / Email"
+pass:
+  calabash:
+    android: "android.widget.TextView id:'nux_password'"
+    ios: "* marked:'Password'"
+  appium:
+    android: "org.wordpress.android:id/nux_password"
+    ios: "Password"
+sign_in:
+  calabash:
+    android: "android.widget.TextView text:'Sign in'"
+    ios: "button marked:'Sign In'"
+  appium:
+    android: "org.wordpress.android:id/nux_sign_in_button"
+    ios: "Sign In"
+add_site:
+  calabash:
+    android: "* id:'nux_add_selfhosted_button'"
+    ios: "button marked:'Add Self-Hosted Site'"
+  appium:
+    android: "org.wordpress.android:id/nux_add_selfhosted_button"
+    ios: "Add Self-Hosted Site"
+site_address:
+  calabash:
+    android: "* id:'nux_url'"
+    ios: "* marked:'Site Address (URL)'"
+  appium:
+    android: "org.wordpress.android:id/nux_url"
+    ios: "Site Address (URL)"
+add_site_button:
+  calabash:
+    android: "* id:'nux_sign_in_button'"
+    ios: "button marked:'Add Site'"
+  appium:
+    android: "org.wordpress.android:id/nux_sign_in_button"
+    ios: "Add Site"

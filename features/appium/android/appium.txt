@@ -1,0 +1,8 @@
+[caps]
+platformName = "Android"
+app = "apps/Workshop.apk"
+deviceName = "emulator-5554"
+
+[appium_lib]
+sauce_username = false
+sauce_access_key = false

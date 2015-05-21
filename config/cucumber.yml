@@ -1,0 +1,7 @@
+<% common_path = "-r features/support/env.rb -r workshop_test -r features/support -r features/step_definitions" %>
+
+ios-calabash: PLATFORM=calabash ENV=ios <%= common_path %>
+android-calabash: PLATFORM=calabash ENV=android <%= common_path %>
+
+ios-appium: PLATFORM=appium ENV=ios <%= common_path %>
+android-appium: PLATFORM=appium ENV=android <%= common_path %>

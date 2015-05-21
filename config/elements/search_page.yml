@@ -1,0 +1,7 @@
+search_box:
+  calabash:
+    android: "org.apache.cordova.engine.SystemWebView css:'input'"
+    ios:
+  appium:
+    android: "android.widget.EditText"
+    ios: "UIATextField"
