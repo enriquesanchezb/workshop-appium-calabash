@@ -16,7 +16,7 @@ class BasePage
       extend AppiumWorld
       extend AppiumMethods
     else
-        fail('Platform doesn\'t exist')
+      fail('Platform doesn\'t exist')
     end
     @platform = platform
     @env = env

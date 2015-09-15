@@ -1,3 +1,5 @@
+require 'byebug'
+
 Given(/^I am about to login$/) do
   @page = @page.login
 end
@@ -7,7 +9,7 @@ When(/^I enter valid credentials$/) do
   @page = @page.enter_credentials(user[:username],
                                   user[:password],
                                   CREDENTIALS[:site]
-  )
+                                 )
 end
 
 And(/^I can see posts for the site$/) do

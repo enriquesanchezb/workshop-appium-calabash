@@ -1,0 +1,7 @@
+add:
+  calabash:
+    android: "* resource-id:'menu_new_post'"
+    ios: ""
+  appium:
+    android: "org.wordpress.android:id/menu_new_post"
+    ios: ""

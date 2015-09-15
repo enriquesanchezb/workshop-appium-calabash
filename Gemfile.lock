@@ -119,3 +119,6 @@ DEPENDENCIES
   require_all
   rspec
   rspec-expectations
+
+BUNDLED WITH
+   1.10.3

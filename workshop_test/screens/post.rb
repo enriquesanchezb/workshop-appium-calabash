@@ -7,4 +7,8 @@ class Post < BasePage
   def post_exists?
     exists?('Posts')
   end
+
+  def create_new_post
+    press('add')
+  end
 end

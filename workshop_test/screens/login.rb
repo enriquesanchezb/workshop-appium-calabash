@@ -12,5 +12,4 @@ class Login < BasePage
     press('add_site_button')
     Post.new(@platform, @env)
   end
-
 end
